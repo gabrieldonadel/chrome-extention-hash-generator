@@ -1,0 +1,9 @@
+ {
+    "name": "Hash Generator",
+    "version": "1.0",
+    "description": "Generate MD5, SHA-256 hashes!",
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "manifest_version": 2
+  }
