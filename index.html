@@ -9,16 +9,20 @@ and open the template in the editor.
         <title>Hash Generator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="sha256.js"></script>
+        <script type="text/javascript" src="md5.js"></script>
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <h1>Hash Generator</h1>
         <p>Select the hash type</p>
-        <select>
-            <option value="SHA-256">SHA-256</option>
-            <option value="SHA-512">SHA-512</option>
+        <select id='opcoes'>
+            <option value='0'>MD5</option>
+            <option value='1'>SHA-1</option>
+            <option value='2'>SHA-256</option>
+            <option value='3'>SHA-512</option>
         </select>
-        <input type="text"/>
+        <input id="text" type="text"/>
         <button id="btn">Generate</button>
         
     </body>
