@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', function(){
         var optionsList = document.getElementById("opcoes");
         var selectedOption =  parseInt(optionsList.options[optionsList.selectedIndex].value);
         var hexHash = generateHash(inputText,selectedOption);
-        alert(hexHash);
+        //alert(hexHash);
+        var resultSelector = document.getElementById("result");
+        resultSelector.innerHTML = "hex: "+ hexHash;
    });
     
 });
