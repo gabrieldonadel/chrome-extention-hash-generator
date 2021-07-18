@@ -3,3 +3,4 @@
 # Hash Generator
 A Simple to use Chrome extension to immediately generate your own hashes with a single click. The current version supports MD5, SHA-1, SHA-256 and SHA-512.
  
+Download now for free on chrome web store https://chrome.google.com/webstore/detail/hash-generator/gpoanfafbmmhifpmbefgllakooeokdgl
